@@ -1,1 +1,1 @@
-# Npgc_Results
+# NpgcResults
