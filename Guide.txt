@@ -1,0 +1,8 @@
+How to Use:
+1) Run the scrapper.py as Administrator
+2) Wait for the National Site to open
+3) Enter First Roll no on "THE CONSOLE AND NOT WEBSITE"
+4) Enter Last Roll no again on "THE CONSOLE"
+5) Wait until Results upto Last Roll no is fetched
+6) Close the Chrome tab and Console
+7) Open Results.txt file
