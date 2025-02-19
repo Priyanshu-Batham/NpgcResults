@@ -19,8 +19,9 @@ for roll in range(rollStart, rollEnd+1):
     try:
         name=driver.find_element(by="xpath",value="/html/body/form/div[3]/div[2]/div/article/div[4]/table/tbody/tr[3]/td[3]/span").text
         text=driver.find_element(by="xpath",value="/html/body/form/div[3]/div[2]/div/article/div[7]/div/p/span").text
-        print(roll,name,text)
-        data=data+"\n"+roll+" "+name+" "+text
+        marks=driver.find_element(by="xpath",value="/html/body/form/div[3]/div[2]/div/article/div[5]/table/tbody/tr[12]/td[3]/span").text
+        print(roll,name,text,marks)
+        data=data+"\n"+roll+" "+name+" "+text+" marks: "+marks
         driver.back()
     except:
         print("Roll no not registered")
